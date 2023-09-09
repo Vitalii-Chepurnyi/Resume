@@ -103,3 +103,10 @@ header {
     font-weight: 300;
     letter-spacing: 2px;
 }
+
+/*----------------------------------------------------------------Hover.css*/
+
+.hvr-bounce-to-bottom::before {
+    background-color: #22222267;
+    height: 120px;
+}
