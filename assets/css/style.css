@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*----------------------------------------------------------------Colours*/
+/*----------------------------------------------------------------#676666daColours*/
 .bg-color-name-title {
-    background-color: #676666da;
+    background-color: #f4f4f4;
 }
 
 .bg-color-three-reasons {
@@ -100,16 +100,17 @@ header {
     font-weight: 300;
     font-size: 42px;
     margin-top: 50px;
-    color:#ffff;
+    color:#1f1f1f;
 }
 
 .title {
     font-family: "Roboto", sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 28px;
+    margin-left: 5px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: #ffff;
+    color: #1f1f1f;
 }
 
 .list-inline-item:not(:last-child) {
@@ -212,7 +213,7 @@ footer {
 }
 
 #footer-details {
-    padding: 20px;
+    padding: 25px;
 }
 
 /*----------------------------------------------------------------Three reasons*/
@@ -309,7 +310,7 @@ footer {
 /*----------------------------------------------------------------Portfolio*/
 
 .portfolio {
-    background-color: #67666621;
+    background-color: #6766660e;
     transition: all 0.35s ease-in-out;
 }
 
@@ -330,6 +331,7 @@ footer {
     font-weight: 400;
     margin-top: 25px;
     margin-bottom: 35px;
+    border-right: 1px solid #3f3f3f;
 }
 
 .project-name i {
