@@ -33,6 +33,10 @@
 .bg-color-work-history {
     background-color: #f7c069;
 }
+
+.bg-color-contact {
+    background-color: #fff;
+}
 /*----------------------------------------------------------------Special Paddings/margins/text*/
 
 h1,
@@ -301,3 +305,72 @@ footer {
     content: '';
     background: #3b3b3b;
 }
+
+/*----------------------------------------------------------------Portfolio*/
+
+.portfolio {
+    background-color: #67666621;
+    transition: all 0.35s ease-in-out;
+}
+
+.portfolio:hover {
+    background-color: #ffffff98;
+}
+
+.portfolio p {
+    margin-bottom: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.project-name {
+    font-family: "Exo", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.project-name i {
+    color:#676666da;
+    transition: all 0.2s ease-in-out;
+}
+.project-name i:hover {
+    color:#f1b24b
+}
+
+.project-name a {
+    text-decoration: none;
+}
+
+.wash-and-go {
+    background: url("../images/wash-go.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    border-radius: 5%;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.capital {
+    background: url("../images/capital.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    border-radius: 5%;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.battle-ship {
+    background: url("../images/battle-ship.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    border-radius: 5%;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
